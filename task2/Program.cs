@@ -12,22 +12,22 @@ double Dist(double x1, double x2, double y1, double y2, double z1, double z2)
 
 Console.Clear();
 System.Console.WriteLine("Введите координату x1");
-double x1 = double.Parse(Console.ReadLine());
+double x1 = double.Parse(Console.ReadLine()!);
 
 System.Console.WriteLine("Введите координату x2");
-double x2 = double.Parse(Console.ReadLine());
+double x2 = double.Parse(Console.ReadLine()!);
 
 System.Console.WriteLine("Введите координату y1");
-double y1 = double.Parse(Console.ReadLine());
+double y1 = double.Parse(Console.ReadLine()!);
 
 System.Console.WriteLine("Введите координату y2");
-double y2 = double.Parse(Console.ReadLine());
+double y2 = double.Parse(Console.ReadLine()!);
 
 System.Console.WriteLine("Введите координату z1");
-double z1 = double.Parse(Console.ReadLine());
+double z1 = double.Parse(Console.ReadLine()!);
 
 System.Console.WriteLine("Введите координату z2");
-double z2 = double.Parse(Console.ReadLine());
+double z2 = double.Parse(Console.ReadLine()!);
 
 
 
